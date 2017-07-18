@@ -5,9 +5,10 @@
 # timestamp file //给file添加时间戳
 
 import os, sys, cv2
-from matplotlib import pyplot as plt
-from PIL import Image
+from matplotlib import pyplot as plt #显示图片
+from PIL import Image #取exif信息
 
+#字体和图片的高度的比例
 SS_DEFAULT_SCALE = 30.0
 SS_DEFAULT_THICKNESS = 2
 
